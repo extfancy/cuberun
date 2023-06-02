@@ -1,6 +1,7 @@
 {
   "name": "cubeworld",
   "version": "0.1.0",
+  "author": "william lee",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^5.3.1",
