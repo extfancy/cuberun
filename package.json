@@ -1,0 +1,39 @@
+{
+  "name": "cubeworld",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^5.3.1",
+    "@react-three/fiber": "^6.2.2",
+    "react": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-scripts": "4.0.3",
+    "three": "^0.129.0",
+    "zustand": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
