@@ -1,0 +1,31 @@
+
+.author {
+  margin-top: 1rem;
+  color: #fe2079;
+  font-family: 'Road Rage', Inconsolata, monospace;
+  text-shadow: 0 0 40px #fe2079;
+  font-size: 2rem;
+}
+
+.author > a {
+  color: #fe2079;
+  text-decoration: none;
+}
+
+.author > a:hover {
+  color: #eee;
+}
+
+
+@media screen and (max-width: 992px) {
+.author {
+  text-shadow: 0 0 15px #fe2079;
+}
+}
+
+@media screen and (max-width: 600px) {
+.author {
+  font-size: 1.5rem;
+  text-shadow: 0 0 15px #fe2079;
+}
+}
